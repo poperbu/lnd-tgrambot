@@ -34,7 +34,7 @@ simple-node-logger
 5-Run it:
 
  ```
-$node rpc_bot.js -t your_telegrambot_token -i yourTelegramID
+$node lnd-tgrambot.js -t your_telegrambot_token -i yourTelegramID
 ```
 
 
