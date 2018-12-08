@@ -1,0 +1,34 @@
+{
+  "name": "lnd-tgrambot",
+  "version": "0.0.1-beta",
+  "description": "Lightning Network Daemon (LND) controlled via Telegram Bot",
+  "main": "lnd-tgrambot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poperbu/lnd-tgrambot.git"
+  },
+  "keywords": [
+    "lightning",
+    "network",
+    "lnd",
+    "bitcoin",
+    "telegram",
+    "ln"
+  ],
+  "author": "Jordi Sala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poperbu/lnd-tgrambot/issues"
+  },
+  "homepage": "https://github.com/poperbu/lnd-tgrambot#readme",
+  "dependencies": {
+    "grpc": "^1.16.1",
+    "meow": "^5.0.0",
+    "simple-node-logger": "^0.93.40",
+    "sleep": "^5.2.3",
+    "telegraf": "^3.25.5"
+  }
+}
