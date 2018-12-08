@@ -12,7 +12,7 @@ NOTE: It is unfinished and there are some unfinished functions, and some errors.
 
 1-Install your Bitcoin Node and Lightning Network Daemon (LND) -> https://dev.lightning.community/guides/installation/
 
-2-Install [Node Js] (https://nodejs.org/en/)
+2-Install [Node Js](https://nodejs.org/en/)
 
 3-Create your Telegram Bot -> https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
