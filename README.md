@@ -7,21 +7,31 @@ lnd-tgrambot is a simple telegram bot, than allow you to control your Lightning 
 
 1-Install your Bitcoin Node and Lightning Network Daemon (LND) -> https://dev.lightning.community/guides/installation/
 
-2-Create your Telegram Bot -> https://core.telegram.org/bots#3-how-do-i-create-a-bot
+2-Install [Node Js] (https://nodejs.org/en/)
 
-3-Download lnd-tgrambot.js from this repository.
+3-Create your Telegram Bot -> https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
-4-Install dependencies(*)
+4-Download lnd-tgrambot.js from this repository.
+
+5-Install Node Js dependencies:
+```
+telegraf
+sleep
+grpc
+meow
+simple-node-logger
+```
 
 5-Run it:
 
- ```node rpc_bot.js -t your_telegrambot_token```
+ ```node rpc_bot.js -t your_telegrambot_token -i yourTelegramID```
 
 ## Command Line (or ENV) Options
 
 Run lnd-tgrambot with -h (or --help) :
 
-```$ node lnd-tgrambot.js -h
+```
+$node lnd-tgrambot.js -h
 
   Lightning Network Daemon (LND) controlled via Telegram Bot
 
