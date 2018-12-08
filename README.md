@@ -1,7 +1,7 @@
-# lnd-tgrambot
-Lightning Network Daemon (LND) controlled via Telegram Bot
+# lnd-tgrambot (0.0.1-BETA)
+Lightning Network Daemon (LND) controlled via Telegram Bot (EXPERIMENTAL)
 ## Description
-lnd-tgrambot is a simple telegram bot, than allow you to control your Lightning Network Daemon ([LND](https://github.com/lightningnetwork/lnd)) from your mobile phone via Telegram. It is a very simple Node js script. It based on LND [gRPC API](https://api.lightning.community/).
+lnd-tgrambot is a simple telegram bot, that allows you to control your Lightning Network Daemon ([LND](https://github.com/lightningnetwork/lnd)) from your mobile phone via Telegram. It is a very simple Node js script. It based on LND [gRPC API](https://api.lightning.community/).
 
 ## Instructions
 
@@ -79,7 +79,7 @@ export LOG_FILE=out.log
 
 ·Don't use large amounts of BTC on de LND controlled by this Bot.
 
-·Secure your telegram: https://www.cyclonis.com/how-to-secure-telegram-account-protect-from-hackers/
+·Secure your telegram: [How to secure telegram account](https://www.cyclonis.com/how-to-secure-telegram-account-protect-from-hackers/)
 
 ## TODO:
 
