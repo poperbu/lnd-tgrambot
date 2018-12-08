@@ -11,7 +11,11 @@ lnd-tgrambot is a simple telegram bot, than allow you to control your Lightning 
 
 3-Create your Telegram Bot -> https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
-4-Download lnd-tgrambot.js from this repository.
+4-Clone (or download) this repository.
+```
+$git clone https://github.com/poperbu/lnd-tgrambot.git
+$cd lnd-tgrambot
+```
 
 5-Install Node Js dependencies:
 ```
@@ -24,7 +28,8 @@ simple-node-logger
 
 5-Run it:
 
- ```node rpc_bot.js -t your_telegrambot_token -i yourTelegramID```
+ ```
+$node rpc_bot.js -t your_telegrambot_token -i yourTelegramID```
 
 ## Command Line (or ENV) Options
 
