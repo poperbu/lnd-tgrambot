@@ -29,7 +29,9 @@ simple-node-logger
 5-Run it:
 
  ```
-$node rpc_bot.js -t your_telegrambot_token -i yourTelegramID```
+$node rpc_bot.js -t your_telegrambot_token -i yourTelegramID
+```
+
 
 ## Command Line (or ENV) Options
 
@@ -70,6 +72,22 @@ export LND_RPCPROTO=$HOME/go/src/github.com/lightningnetwork/lnd/lnrpc/rpc.proto
 export AUTH_PASSWORD=yourpassword
 export LOG_FILE=out.log
 ```
+
+## Security
+
+·This is an experimental project. This first version is ONLY secured by filtering Telegram UserID and (optional) plaintext password. Any idea or suggestion to improve security will be wellcome!!
+
+·Don't use large amounts of BTC on de LND controlled by this Bot.
+
+·Secure your telegram: https://www.cyclonis.com/how-to-secure-telegram-account-protect-from-hackers/
+
+## TODO:
+
+·Create Invoices.
+·Improve Security.
+·Start/Stop LND.
+·Connect to peers.
+·Open/Close Channels.
 
 
 
