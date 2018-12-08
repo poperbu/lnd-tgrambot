@@ -53,6 +53,18 @@ $node lnd-tgrambot.js -h
   Example
     $ lnd-tgram-bot -t my_telegram_token -i 000000
 ```
+Or you can use ENV variables (Example):
+
+```
+export TELEGRAM_TOKEN=yourtelegramtoken
+export TELEGRAM_ID=000000
+export LND_MACAROON=$HOME/.lnd/data/chain/bitcoin/mainnet/admin.macaroon
+export LND_TLSCERT=$HOME/.lnd/tls.cert
+export LND_GRPCURL=localhost:10009
+export LND_RPCPROTO=$HOME/go/src/github.com/lightningnetwork/lnd/lnrpc/rpc.proto
+export AUTH_PASSWORD=yourpassword
+export LOG_FILE=out.log
+```
 
 
 
