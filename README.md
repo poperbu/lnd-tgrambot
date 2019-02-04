@@ -95,6 +95,9 @@ export LOG_FILE=out.log
 ·Open/Close Channels.
 
 
+## tippin.me
+
+https://tippin.me/@poperbu
 
 
 
